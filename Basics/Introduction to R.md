@@ -15,3 +15,5 @@ The last two might need some explaining:
 - The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or 5 %% 3 is 2.
 ### What's that data type?
 You can check the data type of a variable beforehand. You can do this with the `class()` function
+### Vectors
+Vectors are one-dimension arrays that can hold numeric data, character data, or logical data. In other words, a vector is a simple tool to store data.
