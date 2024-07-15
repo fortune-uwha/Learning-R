@@ -30,3 +30,4 @@ Name     Profession
 
 
 * `sum()`: It calculates the sum of all elements of a vector.
+* the first element in a vector has `index 1`, not 0 as in many other programming languages
