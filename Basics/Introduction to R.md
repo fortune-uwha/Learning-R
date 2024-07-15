@@ -23,8 +23,8 @@ In R, you create a vector with the combine function `c()`. You place the vector 
   some_vector <- c("John Doe", "poker player")
 names(some_vector) <- c("Name", "Profession")
 ```
-** Output**
+```#### Output
 `Name     Profession 
-    "John Doe" "poker player" `
+    "John Doe" "poker player"```
 
-
+* `sum()`: It calculates the sum of all elements of a vector.
