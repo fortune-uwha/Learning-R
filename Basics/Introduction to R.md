@@ -36,3 +36,4 @@ Name     Profession
 ```r
 poker_vector[c(1, 5)]
 ```
+* R knows what to do when you pass a logical vector in square brackets: it will only select the elements that correspond to `TRUE`
