@@ -17,3 +17,4 @@ The last two might need some explaining:
 You can check the data type of a variable beforehand. You can do this with the `class()` function
 ### Vectors
 Vectors are one-dimension arrays that can hold numeric data, character data, or logical data. In other words, a vector is a simple tool to store data.
+In R, you create a vector with the combine function `c()`. You place the vector elements separated by a comma between the parentheses.
