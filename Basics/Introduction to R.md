@@ -8,6 +8,7 @@ In its most basic form, R can be used as a simple calculator. Consider the follo
 * Division: /
 * Exponentiation: ^
 * Modulo: %%
+  
 The last two might need some explaining:
 
 - The ^ operator raises the number to its left to the power of the number to its right: for example 3^2 is 9.
