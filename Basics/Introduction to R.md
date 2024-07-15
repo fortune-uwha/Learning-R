@@ -24,8 +24,7 @@ In R, you create a vector with the combine function `c()`. You place the vector 
 names(some_vector) <- c("Name", "Profession")
 ```
 ** Output**
-
-          Name     Profession 
-    "John Doe" "poker player" 
+`Name     Profession 
+    "John Doe" "poker player" `
 
 
