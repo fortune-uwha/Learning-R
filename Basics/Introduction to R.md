@@ -31,3 +31,8 @@ Name     Profession
 
 * `sum()`: It calculates the sum of all elements of a vector.
 * the first element in a vector has `index 1`, not 0 as in many other programming languages
+* suppose you want to select the first and the fifth day of the week: use the vector c(1, 5) between the square brackets. For example, the code below selects the first and fifth element of poker_vector:
+
+```r
+poker_vector[c(1, 5)]
+```
