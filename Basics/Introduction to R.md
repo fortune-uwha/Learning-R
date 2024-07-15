@@ -18,4 +18,14 @@ You can check the data type of a variable beforehand. You can do this with the `
 ### Vectors
 Vectors are one-dimension arrays that can hold numeric data, character data, or logical data. In other words, a vector is a simple tool to store data.
 In R, you create a vector with the combine function `c()`. You place the vector elements separated by a comma between the parentheses.
-* You can give a name to the elements of a vector with the `names()` function.
+* You can give a name to the elements of a vector with the `names()` function. Example
+  ```R
+  some_vector <- c("John Doe", "poker player")
+names(some_vector) <- c("Name", "Profession")
+```
+** Output**
+
+          Name     Profession 
+    "John Doe" "poker player" 
+
+
