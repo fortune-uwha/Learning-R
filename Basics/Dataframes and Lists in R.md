@@ -6,3 +6,7 @@ The function `str()` shows you the structure of your dataset. For a data frame i
 - A full list of the variables names 
 - The data type of each variable (e.g. num)
 - The first observations
+
+💡To select a single column you can use the `$` sign:
+
+`planets_df$diameter`
