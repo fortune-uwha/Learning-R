@@ -56,7 +56,7 @@ Similar to vectors, you can add names for the rows and the columns of a matrix
 rownames(my_matrix) <- row_names_vector
 colnames(my_matrix) <- col_names_vector
 ```
-💡In R, the function `rowSums()` conveniently calculates the `totals for each row` of a matrix. This function creates a new vector:
+💡In R, the function `rowSums()` conveniently calculates the `totals for each row` of a matrix. `colSums` works similarly but for columns. These functions create a new vector:
 
 ```R
 rowSums(my_matrix)
