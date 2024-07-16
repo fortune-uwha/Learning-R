@@ -1,4 +1,5 @@
 ## Introduction to R
+Learn from my notes about Data types, matrix and factors in R
 ### Arithmetic with R
 In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
 
@@ -94,9 +95,9 @@ If you want to select all elements of a row or a column, no number is needed bef
 - `my_matrix[,1]` selects all elements of the first column.
 - `my_matrix[1,]` selects all elements of the first row.
 
-  **What's a factor and why would you use it?**
+**What's a factor and why would you use it?**
 
-The term factor refers to a statistical data type used to store categorical variables.
+The term factor refers to a statistical data type used to store categorical variables on multiple levels. .
 There are two types of categorical variables: a nominal categorical variable and an ordinal categorical variable.
 
 - `A nominal variable` is a categorical variable without an implied order.
