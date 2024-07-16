@@ -76,8 +76,10 @@ star_wars_matrix <- matrix(box_office,
 ```
 **Adding a column to a matrix**
 
-You can add a column or multiple columns to a matrix with the `cbind()` function, which merges matrices and/or vectors together `by column`. For example:
+You can add a column or multiple columns to a matrix with the `cbind()` function, which merges matrices and/or vectors together `by column`. `rbind()` works similarly but for rows. For example:
 
 ```R
 big_matrix <- cbind(matrix1, matrix2, vector1 ...)
 ```
+💡`ls()` function in R Language is used to list the names of all the objects that are present in the working directory.
+
