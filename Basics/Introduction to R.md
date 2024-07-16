@@ -61,7 +61,7 @@ colnames(my_matrix) <- col_names_vector
 ```R
 rowSums(my_matrix)
 ```
-#### Sample matrix 
+**Sample matrix**
 ```R
 # Construct star_wars_matrix
 box_office <- c(460.998, 314.4, 290.475, 247.900, 309.306, 165.8)
@@ -73,4 +73,10 @@ titles <- c("A New Hope",
 star_wars_matrix <- matrix(box_office, 
                       nrow = 3, byrow = TRUE,
                       dimnames = list(titles, region))
+```
+**Adding a column to a matrix**
+You can add a column or multiple columns to a matrix with the `cbind()` function, which merges matrices and/or vectors together by column. For example:
+
+```R
+big_matrix <- cbind(matrix1, matrix2, vector1 ...)
 ```
