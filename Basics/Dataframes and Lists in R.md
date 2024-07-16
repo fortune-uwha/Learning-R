@@ -13,3 +13,16 @@ The function `str()` shows you the structure of your dataset. For a data frame i
 
 ### Subsets:subsetting vectors, dataframe
 `subset(my_df, subset = some_condition)` : Return subsets of vectors, matrices or data frames which meet conditions.
+**Order**
+order() is a function that gives you the ranked position of each element when it is applied on a variable, such as a vector for example:
+```R
+a <- c(100, 10, 1000)
+order(a)
+[1] 2 1 3
+```
+
+It means we can use order to reshuffle `a`
+```R
+a[order(a)]
+[1]   10  100 1000
+```
