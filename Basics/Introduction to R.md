@@ -83,3 +83,13 @@ big_matrix <- cbind(matrix1, matrix2, vector1 ...)
 ```
 💡`ls()` function in R Language is used to list the names of all the objects that are present in the working directory.
 
+**Selection of matrix elements**
+
+While vectors have one dimension, matrices have two dimensions. You should therefore use a comma to separate the rows you want to select from the columns. For example:
+
+- `my_matrix[1,2]` selects the element at the first row and second column.
+- `my_matrix[1:3,2:4]` results in a matrix with the data on the rows 1, 2, 3 and columns 2, 3, 4.
+If you want to select all elements of a row or a column, no number is needed before or after the comma, respectively:
+
+- `my_matrix[,1]` selects all elements of the first column.
+- `my_matrix[1,]` selects all elements of the first row.
