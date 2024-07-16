@@ -10,3 +10,6 @@ The function `str()` shows you the structure of your dataset. For a data frame i
 💡To select a single column you can use the `$` sign:
 
 `planets_df$diameter`
+
+### Subsets:subsetting vectors, dataframe
+`subset(my_df, subset = some_condition)` : Return subsets of vectors, matrices or data frames which meet conditions.
