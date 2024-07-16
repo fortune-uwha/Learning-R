@@ -56,7 +56,7 @@ Similar to vectors, you can add names for the rows and the columns of a matrix
 rownames(my_matrix) <- row_names_vector
 colnames(my_matrix) <- col_names_vector
 ```
-💡In R, the function `rowSums()` conveniently calculates the totals for each row of a matrix. This function creates a new vector:
+💡In R, the function `rowSums()` conveniently calculates the `totals for each row` of a matrix. This function creates a new vector:
 
 ```R
 rowSums(my_matrix)
@@ -75,6 +75,7 @@ star_wars_matrix <- matrix(box_office,
                       dimnames = list(titles, region))
 ```
 **Adding a column to a matrix**
+
 You can add a column or multiple columns to a matrix with the `cbind()` function, which merges matrices and/or vectors together `by column`. For example:
 
 ```R
