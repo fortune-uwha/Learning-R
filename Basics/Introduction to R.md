@@ -93,3 +93,12 @@ If you want to select all elements of a row or a column, no number is needed bef
 
 - `my_matrix[,1]` selects all elements of the first column.
 - `my_matrix[1,]` selects all elements of the first row.
+
+  **What's a factor and why would you use it?**
+
+The term factor refers to a statistical data type used to store categorical variables.
+There are two types of categorical variables: a nominal categorical variable and an ordinal categorical variable.
+
+- `A nominal variable` is a categorical variable without an implied order.
+-  `ordinal variables` do have a natural ordering. Consider for example the categorical variable temperature_vector with the categories: "Low", "Medium" and "High". Here it is obvious that "Medium" stands above "Low", and "High" stands above "Medium".
+
