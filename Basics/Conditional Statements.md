@@ -35,3 +35,11 @@ for (i in 1:length(primes)) {
   print(primes[i])
 }
 ```
+**Nested For loop**
+```R
+for (var1 in seq1) {
+  for (var2 in seq2) {
+    expr
+  }
+}
+```
