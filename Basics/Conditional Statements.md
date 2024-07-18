@@ -43,3 +43,5 @@ for (var1 in seq1) {
   }
 }
 ```
+- The `break` statement abandons the active loop: the remaining code in the loop is skipped and the loop is not iterated over anymore.
+- The `next` statement skips the remainder of the code in the loop, but continues the iteration.
