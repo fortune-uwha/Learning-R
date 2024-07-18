@@ -7,12 +7,16 @@ if (condition) {
 }
 ```
 You can only use an else statement in combination with an if statement. The else statement does not require a condition:
+
 💡It's important that the else keyword comes on the same line as the closing bracket of the if part!
+
 ```R
-if (condition) {
-  expr1
+if (x < 0) {
+  print("x is a negative number!")
+} else if (x == 0) {
+  print("x is zero")
 } else {
-  expr2
+  print("x is a positive number")
 }
 ```
 - Keep in mind that R ignores the remainder of the control structure once a condition has been found that is `TRUE`
