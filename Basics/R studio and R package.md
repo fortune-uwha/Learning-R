@@ -18,3 +18,4 @@ There are basically two extremely important functions when it comes down to R pa
 - In most other cases it is better to use `library()`, because this will give an error message at package loading time if the package is not available. `require()` will just fail without an error if the package is not there.
   
 
+💡Pro tip: You have to load packages one at a time with `require()` and `library()`
