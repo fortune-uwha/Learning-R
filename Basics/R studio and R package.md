@@ -10,3 +10,11 @@ There are basically two extremely important functions when it comes down to R pa
 
 **Note:**
   -`search()`, is used to look at the currently attached packages
+
+**Both `library` and `require` are used to load packages so whats the difference?**
+
+- `require` is used inside functions, as it outputs a warning and continues if the package is not found, whereas `library` will throw an error. 
+- `require` breaks one of the fundamental rules of robust software systems: _fail early_. your code might yield different, erroneous results, without signalling an error. This is rare but not hypothetical! 
+- In most other cases it is better to use `library()`, because this will give an error message at package loading time if the package is not available. `require()` will just fail without an error if the package is not there.
+  
+
