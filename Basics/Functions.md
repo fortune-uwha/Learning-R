@@ -18,3 +18,14 @@ my_fun <- function(arg1, arg2) {
 }
 ```
 * This creates a new R variable `my_fun`, that becomes available in the workspace as soon as you execute it. From then on, you can use the `my_fun` as a function.
+
+**Example**
+```R
+throw_die <- function() {
+  number <- sample(1:6, size = 1)
+  number
+}
+
+throw_die()
+```
+
