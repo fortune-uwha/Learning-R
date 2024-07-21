@@ -7,4 +7,6 @@ There are basically two extremely important functions when it comes down to R pa
 
 - `install.packages()`, which as you can expect, installs a given package.
 - `library()` which loads packages, i.e. attaches them to the `search` list on your R workspace.
-- 
+
+**Note:**
+  -`search()`, is used to look at the currently attached packages
