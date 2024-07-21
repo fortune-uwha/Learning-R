@@ -26,3 +26,7 @@ It means we can use order to reshuffle `a`
 a[order(a)]
 [1]   10  100 1000
 ```
+
+**Point to note:** What is the difference between `[` and `[[` in R?
+
+* one generally uses `[[` to select any single element, whereas `[` returns a list of the selected elements.
