@@ -28,7 +28,8 @@ throw_die <- function() {
   number <- sample(1:6, size = 1)
   number
 }
-
 throw_die()
 ```
+**Function scoping**
 
+It implies that variables that are defined inside a function are not accessible outside that function.
