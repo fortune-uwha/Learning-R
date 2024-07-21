@@ -20,6 +20,7 @@ my_fun <- function(arg1, arg2) {
 * This creates a new R variable `my_fun`, that becomes available in the workspace as soon as you execute it. From then on, you can use the `my_fun` as a function.
 
 **Example**
+
 Sample function that does not require an input.
 
 ```R
