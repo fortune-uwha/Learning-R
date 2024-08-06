@@ -33,3 +33,6 @@ throw_die()
 **Function scoping**
 
 It implies that variables that are defined inside a function are not accessible outside that function.
+
+**Lapply, apply, vapply**
+The first argument of `sapply()` is the list or vector X over which you want to apply a function, `FUN`.
