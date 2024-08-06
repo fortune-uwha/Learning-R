@@ -34,5 +34,15 @@ throw_die()
 
 It implies that variables that are defined inside a function are not accessible outside that function.
 
-**Lapply, apply, vapply**
+**Lapply, sapply, vapply**
+
 The first argument of `sapply()` is the list or vector X over which you want to apply a function, `FUN`.
+
+```R
+sapply(X, FUN, ...)
+```
+Potential additional arguments to this function are specified afterwards (...)
+
+**Difference between lapply and sapply?**
+
+The `lapply` returns a list, while the `sapply` returns a vector that is a simplified version of this list.
