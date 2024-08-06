@@ -46,3 +46,8 @@ Potential additional arguments to this function are specified afterwards (...)
 **Difference between lapply and sapply?**
 
 The `lapply` returns a list, while the `sapply` returns a vector that is a simplified version of this list.
+
+**lapply**: apply function over a list or vector, **output** = list
+**sapply**: apply function over a list or vector, **output** = trys to simplify list to array
+**vapply**: apply function over a list or vector, **output** = explicitly specify output format
+
